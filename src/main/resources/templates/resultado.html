@@ -6,8 +6,13 @@
 </head>
 <body>
 <h1>Result</h1>
-<p th:text="'id: ' + ${greeting.id}" />
-<p th:text="'content: ' + ${greeting.content}" />
-<a href="/greeting">Submit another message</a>
+<p th:text="'id: ' + ${location.id}" />
+<p th:text="'code: ' + ${location.code}" />
+<p th:text="'name: ' + ${location.name}" />
+<p th:text="'type: ' + ${location.type}" />
+
+
+<a href="/crear">Crear potra localidad</a>
+<b th:text="${msg}"></b>
 </body>
 </html>
